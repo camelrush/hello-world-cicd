@@ -1,0 +1,11 @@
+name: "Hello world"
+
+on: [push]
+
+jobs:
+    sample:
+        name: Hello World Job
+        runs-on: ununtu-latest
+        steps: 
+            - run: echo "hello world!"
+            
